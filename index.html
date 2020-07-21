@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/beer.png">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap" rel="stylesheet"> 
+  <title>Suds for your Buds</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <div class="background">
+  <div class="wrapper">
+  
+  <header>
+    <div class="title">
+      <h1>Buds <span>for</span> SUDS</h1>
+
+    </div>
+    
+    <div class="about">
+      <div class="icon">
+        <img src="./assets/bottlecap.png" alt="">
+        <h2>about</h2>
+      </div>
+      <p>
+        <span>Suds for Buds</span> is an beer companion app that uses jQuery and API data to pair meal options with complimentary craft beers. Submit a food-related term in the form below to receive a list of appropriate results.
+      </p>
+      <p>
+        This app was developed by <span>Edward Bacal</span> and <span>Vigyan Kayastha</span>, using data from punkapi.com, and designed by Edward Bacal.
+      </p>
+    </div>
+  </header>
+  
+
+  <main>
+    <div class="wrapper">
+
+      <div class="eat">
+        <h3>What are you eating?</h3>
+        <form action='submit' id='textInput' class="gradientA">
+          <label for="food"></label>
+          <input type="text" placeholder="e.g. fries" minlength='3'>
+        </form>
+      </div>
+
+      <div class="eat">
+        <h3>Recommend me a beer!</h3>
+        <form action="submit" class="gradientB">
+          <button class="foodOption" id='foodOption'>click!</button>
+        </form>
+      </div>   
+    </div>
+    </main>
+
+    <aside>
+      <div class="asideContainer wrapper">
+      </div>
+    </aside>
+    </div>
+
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>

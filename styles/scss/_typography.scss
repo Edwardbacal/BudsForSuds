@@ -1,0 +1,72 @@
+$darkColour: #6a2474;
+
+body {
+  font-family: 'Jost';
+}
+
+.title {
+    background-color: $darkColour;
+    background: linear-gradient(6deg, #86318d, #992f66de, #e53861e8);
+    color: rgb(240, 238, 214);
+    font-size: 6rem;
+    text-align: center;
+    max-height: 390px;
+    min-width: 390px;
+    border: 2px solid white;
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+    margin-right: 5%;
+    line-height: 1;
+    border-radius: 2px;
+    filter: drop-shadow( -20px 20px rgb(255, 255, 255));
+      span {
+        letter-spacing: 23px;
+        padding: 20px 0px 20px 22px;
+      }
+}
+
+  .about p {
+    padding: 25px 0;
+    border-bottom: 1px solid #fff;
+      span {
+        color: $darkColour;
+      }
+  }
+
+h2,
+h3,
+h4 {
+    font-size: 2rem;
+    color: $darkColour;
+}
+
+h3 {
+  border-bottom: 1px solid white;
+  width: 50%;
+  padding: 35px 0;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2rem;
+  padding-bottom: 30px;
+  line-height: 1.3;
+}
+
+.pairingTitle {
+  color: $darkColour;
+  font-size:1.2rem;
+  margin-top:15px;
+}
+
+input,
+label{
+    font-family: 'Jost';
+    font-size:1.5rem;
+}
+
+
+button {
+    font-family: 'Jost';
+}
